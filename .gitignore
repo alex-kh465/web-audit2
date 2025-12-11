@@ -10,7 +10,8 @@ app1.py
 header.py
 .ruff_cache/
 test.ipynb
-
+packages.txt
+requirements.txt
 tests.py
 .env
 
