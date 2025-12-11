@@ -1,0 +1,29 @@
+lxml>=4.9.0
+nest-asyncio>=1.5.0
+numpy>=1.24.0,<2.0.0
+pandas>=2.0.0
+requests>=2.31.0
+streamlit>=1.30.0
+extruct>=0.18.0
+pathlib>=1.0.1
+python-multipart>=0.0.20
+httpx==0.27.0
+w3lib>=1.22.0
+plotly
+altair
+
+# Google APIs
+google-auth==2.25.2
+google-auth-oauthlib==1.2.0
+google-api-python-client==2.110.0
+
+# Database
+psycopg2-binary==2.9.10
+
+# Environment variables
+python-dotenv==1.0.0
+
+# Required for web scraping with selenium
+selenium==4.15.2
+webdriver-manager==4.0.1
+

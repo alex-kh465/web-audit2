@@ -1,0 +1,16 @@
+.qodo
+.venv
+/venv
+__pycache__/
+sf_automation.log
+sf_after_crawl.log
+/debug
+sf_after_crawl.png
+app1.py
+header.py
+.ruff_cache/
+test.ipynb
+
+tests.py
+.env
+

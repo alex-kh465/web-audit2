@@ -1,0 +1,35 @@
+[project]
+name = "web-audit"
+version = "0.1.0"
+description = "This application uses data from screaming frog for web audit"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "aiohttp>=3.9.0",
+    "beautifulsoup4>=4.12.0",
+    "crawl4ai>=0.6.3",
+    "extruct>=0.18.0",
+    "fastapi>=0.100.0",
+    "lxml>=4.9.0",
+    "matplotlib>=3.7.0",
+    "nest-asyncio>=1.5.0",
+    "numpy>=1.24.0,<2.0.0",
+    "opencv-python>=4.8.0",
+    "openpyxl>=3.1.0",
+    "pandas>=2.0.0",
+    "pathlib>=1.0.1",
+    "plotly>=5.18.0",
+    "pyautogui>=0.9.54",
+    "python-dotenv>=1.0.0",
+    "python-multipart>=0.0.20",
+    "requests>=2.31.0",
+    "rich>=13.0.0",
+    "selenium==4.15.2",
+    "streamlit>=1.30.0",
+    "uvicorn>=0.24.0",
+    "webdriver-manager==4.0.1",
+]
+
+
+[tool.ruff]
+lint.extend-select = ["PTH"]
